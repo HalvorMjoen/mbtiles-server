@@ -43,6 +43,8 @@ function errorHeader() {
   };
 }
 
+
+app.use(express.static('public'));
 // tile cannon
 app.get('/:z/:x/:y.*', function (req, res) {
   //  if (fs.existsSync(req.params.s + ".mbtiles")) {
