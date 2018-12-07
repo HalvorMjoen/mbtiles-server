@@ -1,19 +1,19 @@
 {
-    "tilejson": "1.0.0",
-    "name": "OpenStreetMap",
-    "description": "A free editable map of the whole world.",
+    "tilejson": "2.2.0",
+    "name": "compositing",
+    "description": "A simple, light grey world.",
     "version": "1.0.0",
-    "attribution": "(c) OpenStreetMap contributors, CC-BY-SA",
+    "attribution": "<a href='http://openstreetmap.org'>OSM contributors</a>",
+    "template": "{{#__teaser__}}{{NAME}}{{/__teaser__}}",
+    "legend": "Dangerous zones are red, safe zones are green",
     "scheme": "xyz",
     "tiles": [
-        "https://a.tile.openstreetmap.org/{z}/{x}/{y}.png"
+        "http://68.183.208.184:3000/{z}/{x}/{y}.png"
     ],
-    "minzoom": 0,
-    "maxzoom": 18,
     "bounds": [
         -180,
-        -85,
+        -85.05112877980659,
         180,
-        85
+        85.0511287798066
     ]
 }
