@@ -46,7 +46,7 @@ function errorHeader() {
 // tile cannon
 app.get('/:z/:x/:y.*', function (req, res) {
   //  if (fs.existsSync(req.params.s + ".mbtiles")) {
-  new MBTiles(p.join(tilesDir, "33_N5000raster_1.mbtiles"), function (
+  new MBTiles(p.join(tilesDir, "sor_norge_n50.mbtiles"), function (
     err,
     mbtiles
   ) {
