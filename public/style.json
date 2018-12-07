@@ -1,19 +1,30 @@
 {
-    "tilejson": "2.2.0",
-    "name": "compositing",
-    "description": "A simple, light grey world.",
-    "version": "1.0.0",
-    "attribution": "<a href='http://openstreetmap.org'>OSM contributors</a>",
-    "template": "{{#__teaser__}}{{NAME}}{{/__teaser__}}",
-    "legend": "Dangerous zones are red, safe zones are green",
+    "attribution": "<a href=\"https://www.mapbox.com/about/maps/\" target=\"_blank\">&copy; Mapbox</a> <a href=\"http://www.openstreetmap.org/about/\" target=\"_blank\">&copy; OpenStreetMap</a> <a class=\"mapbox-improve-map\" href=\"https://www.mapbox.com/map-feedback/\" target=\"_blank\">Improve this map</a> <a href=\"https://www.digitalglobe.com/\" target=\"_blank\">&copy; DigitalGlobe</a>",
+    "autoscale": true,
+    "bounds": [
+        -180,
+        -85,
+        180,
+        85
+    ],
+    "cacheControl": "max-age=43200,s-maxage=604800",
+    "center": [
+        0,
+        0,
+        3
+    ],
+    "created": 1358310600000,
+    "description": "",
+    "id": "findmy.raster",
+    "maxzoom": 19,
+    "minzoom": 0,
+    "modified": 1446150592060,
+    "name": "Findmy Raster",
+    "private": false,
     "scheme": "xyz",
+    "tilejson": "2.0.0",
     "tiles": [
         "http://68.183.208.184:3000/{z}/{x}/{y}.png"
     ],
-    "bounds": [
-        -180,
-        -85.05112877980659,
-        180,
-        85.0511287798066
-    ]
+    "webpage": "http://a.tiles.mapbox.com/v4/mapbox.satellite/page.html"
 }
